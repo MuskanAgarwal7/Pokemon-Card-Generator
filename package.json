@@ -1,0 +1,15 @@
+{
+  "name": "project-8--pokemon-project",
+  "version": "1.0.0",
+  "description": "Pokemon Project using nodeJs and ExpressJs as a Local server!",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Muskan Agarwal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
