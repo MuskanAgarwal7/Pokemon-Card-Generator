@@ -2,6 +2,11 @@
 
 A fun web application that displays a randomly generated Pokémon card using the [PokéAPI](https://pokeapi.co/). Users can generate Pokémon either randomly or by entering a specific name.
 
+### 🌐 Live Demo
+🔗 [Pokemon Card Generator Web App](https://pokemoncardgeneratorwebapp.netlify.app/)
+
+---
+
 ## 🚀 Features
 
 - Fetches Pokémon data from PokéAPI
