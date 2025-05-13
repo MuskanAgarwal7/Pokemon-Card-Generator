@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon Card Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search by name or ID..."
+      />
+
+      <div class="card">
+        <p class="hp">
+          <span>HP</span>
+          <span class="HP-value"></span>
+        </p>
+        <img class="img" alt="Pokemon Image" />
+        <h1 class="name"></h1>
+        <p class="type-label"></p>
+
+        <div class="stats">
+          <div>
+            <h3 class="attack"></h3>
+            <p>Attack</p>
+          </div>
+          <div>
+            <h3 class="defense"></h3>
+            <p>Defense</p>
+          </div>
+          <div>
+            <h3 class="speed"></h3>
+            <p>Speed</p>
+          </div>
+        </div>
+      </div>
+      <button id="btn">Generate Pokémon</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

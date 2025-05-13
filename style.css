@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 350px;
+  text-align: center;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  font-size: 16px;
+  text-align: center;
+  outline: none;
+  transition: 0.3s;
+}
+
+#searchInput:focus {
+  border-color: #2a75bb;
+  box-shadow: 0 0 5px #2a75bb77;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(12px);
+  padding: 30px 20px;
+  color: #2c3e50;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.hp {
+  width: 90px;
+  background-color: white;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 30px;
+  margin-left: auto;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.HP-value {
+  font-size: 16px;
+  font-weight: 700;
+  color: #d35400;
+}
+
+.card img {
+  display: block;
+  width: 160px;
+  max-height: 180px;
+  margin: 20px auto;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 10px 0;
+  color: #2c3e50;
+}
+
+.type-label {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.stats h3 {
+  margin-bottom: 4px;
+  font-size: 18px;
+}
+
+.stats p {
+  color: #34495e;
+}
+
+#btn {
+  margin: 30px auto;
+  background-color: burlywood;
+  padding: 12px 20px;
+  font-size: larger;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#btn:hover {
+  transform: scale(1.05);
+}
